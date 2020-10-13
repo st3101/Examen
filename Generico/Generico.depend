@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1602129755 source:c:\users\santi\desktop\facultad\02-2020\programacion\generico\estructura.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estructura.h"
+	"inPut.h"
+
+1602129777 source:c:\users\santi\desktop\facultad\02-2020\programacion\generico\main.c
+	<stdio.h>
+	<stdlib.h>
+	"estructura.h"
+	"inPut.h"
+
+1602047371 c:\users\santi\desktop\facultad\02-2020\programacion\generico\estructura.h
+
+1602129652 source:c:\users\santi\desktop\facultad\02-2020\programacion\generico\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+	"inPut.h"
+
+1602129548 c:\users\santi\desktop\facultad\02-2020\programacion\generico\input.h
+
+1602129652 source:c:\users\santi\desktop\generico\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+	"inPut.h"
+
+1602129548 c:\users\santi\desktop\generico\input.h
+
+1602166240 source:c:\users\santi\desktop\generico\main.c
+	<stdio.h>
+	<stdlib.h>
+	"estructura.h"
+	"raza.h"
+	"inPut.h"
+	"MascotaRaza.h"
+
+1602163837 c:\users\santi\desktop\generico\estructura.h
+
+1602202312 source:c:\users\santi\desktop\generico\estructura.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estructura.h"
+	"inPut.h"
+
+1602202419 source:c:\users\santi\desktop\generico\raza.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estructura.h"
+	"inPut.h"
+	"raza.h"
+
+1602160889 c:\users\santi\desktop\generico\raza.h
+
+1602202709 source:c:\users\santi\desktop\generico\mascotaraza.c
+	"MascotaRaza.h"
+	"raza.h"
+	"estructura.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estructura.h"
+	"inPut.h"
+
+1602164387 c:\users\santi\desktop\generico\mascotaraza.h
+	"raza.h"
+	"estructura.h"
+

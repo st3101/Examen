@@ -50,36 +50,40 @@ int buscarIgualdad(eRaza listRaza[],int lenRaza,int idRaza)
 void MostrarOrdenarPorPais(eMascotas listMascotas[],int lenMascotas,eRaza listRaza[],int lenRaza)
 {
     int i;
-    int j;
-
+    int h;
 
 
     eMascotas AuxMascotas;
-    eRaza auxRazaI;
-    eRaza auxRazaj;
+mostrarMascotaRaza(listMascotas,lenMascotas,listRaza,lenRaza);
 
-        for(i=0; i<lenMascotas-1; i++)
+    for(i=0;i<lenMascotas;i++)
+    {
+
+
+
+
+
+        for(h=i+1;h<lenRaza+1;h++)
         {
-            auxRazaI=buscarIgualdad(listRaza,lenRaza,listRaza[i].idRaza);
 
-            for(j=i+1; j<lenMascotas; j++)
+
+                printf("%s y %s \n",listRaza[i].pais,listRaza[h].pais);
+                printf("%d y %d \n",i,h);
+
+
+            if((listRaza[i].pais[0]<listRaza[h].pais[0])>=0&&listRaza[h].isEmpty==1&&listRaza[i].isEmpty==1)
             {
-
-|                auxRazaj=buscarIgualdad(listRaza,lenRaza,listRaza[i].idRaza);
-
-                if(strcmp(auxRazaI.pais,auxRazaj.pais))
-                {
-                    AuxMascotas=listMascotas[i];
-                    listMascotas[i]=listMascotas[j];
-                    listMascotas[j]=AuxMascotas;
-                }
-
+                printf("ENTR0\n");
+                AuxMascotas=listMascotas[i];
+                listMascotas[i]=listMascotas[h];
+                listMascotas[h]=AuxMascotas;
             }
         }
 
+    }
+
     mostrarMascotaRaza(listMascotas,lenMascotas,listRaza,lenRaza);
 }
-
 
 
 

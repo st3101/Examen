@@ -44,14 +44,14 @@
 
 1602163837 c:\users\santi\desktop\generico\estructura.h
 
-1602202312 source:c:\users\santi\desktop\generico\estructura.c
+1602659689 source:c:\users\santi\desktop\generico\estructura.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"estructura.h"
 	"inPut.h"
 
-1602202419 source:c:\users\santi\desktop\generico\raza.c
+1602659616 source:c:\users\santi\desktop\generico\raza.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -61,7 +61,7 @@
 
 1602160889 c:\users\santi\desktop\generico\raza.h
 
-1602659181 source:c:\users\santi\desktop\generico\mascotaraza.c
+1602659258 source:c:\users\santi\desktop\generico\mascotaraza.c
 	"MascotaRaza.h"
 	"raza.h"
 	"estructura.h"

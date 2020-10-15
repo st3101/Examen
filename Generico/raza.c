@@ -9,9 +9,9 @@ void harcodearAnidada(eRaza list[])
 {
 
     int idRaza[4] = {100,200,300,400};
-    char descripcion[4][50] = {"siames","persa","doberman","pastor"};
-    char tamanio[4][50]={"chico","mediano","grande","grande"};
-    char pais[4][50]={"Tailandia","Persia","Alemaia","Belgica"};
+    char descripcion[4][50] = {"doberman","pastor","siames","persa"};
+    char tamanio[4][50]={"grande","grande","chico","mediano"};
+    char pais[4][50]={"Alemaia","Belgica","Tailandia","Persia"};
 
     int i;
 

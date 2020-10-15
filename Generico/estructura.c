@@ -21,7 +21,7 @@ void harcodearEstructura (eMascotas list[])
     int edad[5]={10,5,2,15,9};
     char sexo[5]={'f','m','m','m','f'};
     char tipo[5][10]={"Gato","Gato","Perro","Perro","Perro"};
-    int idRaza[5]={100,200,300,300,400};
+    int idRaza[5]={400,300,100,100,200};
 
     int i;
     for (i=0; i<5; i++)
